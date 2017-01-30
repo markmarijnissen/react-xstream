@@ -1,0 +1,31 @@
+{
+  "name": "react-xstream",
+  "version": "0.1.0",
+  "description": "Connect Rx with React using an Action Stream",
+  "main": "index.js",
+  "scripts": {
+    "prepublish":"node node_modules/babel-cli/bin/babel.js index.jsx --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmarijnissen/react-xstream.git"
+  },
+  "keywords": [
+    "xstream",
+    "react",
+    "action",
+    "flux"
+  ],
+  "author": "Mark Marijnissen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markmarijnissen/react-xstream/issues"
+  },
+  "homepage": "https://github.com/markmarijnissen/react-xstream#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-env": "^1.1.8"
+  }
+}
